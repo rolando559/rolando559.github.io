@@ -1,0 +1,188 @@
+
+body{
+     background: url(../images/sleep.jpeg);
+}
+form {
+margin: 0 auto;
+width: 30%;
+margin-top: 450px;
+}
+
+#video_background { position: absolute; 
+bottom: 0px; 
+right: 0px;
+min-width: 100%;
+min-height: 100%;
+width: auto; height: auto; 
+z-index: -1000;
+overflow: hidden; }
+
+}
+Read more: HTML Video Background Tutorial - HTML5 and CSS only! http://kesilconsulting.com/web-designer-magazine/html-video-background-tutorial/#ixzz30g7PtciV 
+Follow us: @kesilconsulting on Twitter | kesilconsulting on Facebook
+
+Read more: HTML Video Background Tutorial - HTML5 and CSS only! http://kesilconsulting.com/web-designer-magazine/html-video-background-tutorial/#ixzz30fg4zC8D 
+Follow us: @kesilconsulting on Twitter | kesilconsulting on Facebook
+
+
+
+
+.navbar-default {
+background-color: rgba(45,62,80,.5);
+border-color: transparent;
+}
+
+@media (min-width: 768px){
+.navbar {
+border-radius: 4px;
+}
+}
+
+@media screen and (max-width: 768px){
+aside {
+    display: none;}
+
+}
+
+
+header{
+	width: 100%;
+}
+
+.navbar {
+position: relative;
+min-height: 50px;
+margin-bottom: 20px;
+border: 1px solid transparent;
+}
+
+ .navbar-brand {
+color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+color: #76F;
+-webkit-transform: scale(1, 1); // This is the scale for the normal size of the image.
+-webkit-transition-duration: 500ms;
+-webkit-transition-timing-function: ease-out;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+color: white;
+opacity: .7;
+    -webkit-transform: scale(1.05,1.07);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1.05,1.07);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+    position: relative;
+    z-index: 99;
+}
+.navbar-default .navbar-brand {
+color: white;
+
+}
+
+
+main{
+	height: 500px;
+	width: 100%;
+
+}
+
+#mycarousel{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 0px;
+    float: left;
+    clear: both;
+}
+
+#container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+display: block;
+max-width: 100%;
+width: 100%;
+height: 600px;
+margin: 0 auto;
+clear: both;
+}
+
+
+.subheader1, .subheader2, .subheader3{
+background-color:#258ef7;
+height: 75px;
+width: 75%;
+border-radius: 5px;
+
+}
+
+.subheader1:hover{
+
+    box-shadow:1px 2px 4px 4px
+}
+
+
+.carousel-control.left {
+background-image: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,.1) 0),color-stop(rgba(0,0,0,.0001) 100%));
+background-image: linear-gradient(to right,rgba(0,0,0,.1) 0,rgba(0,0,0,.0001) 100%);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+}
+
+
+.carousel-control.right {
+left: auto;
+right: 0;
+background-image: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,.0001) 0),color-stop(rgba(0,0,0,.1) 100%));
+background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.1) 100%);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+
+aside{
+    position: relative;
+    float: right;
+    width: 20%;
+    display: inline-block;
+    height: 600px;
+    background-color: rgba(120,120,120,.6);
+}
+
+#video_background { position: absolute; 
+    bottom: 0px; 
+    right: 0px;
+     min-width: 100%; 
+     min-height: 100%; 
+    width: 100%; 
+    height: 100%; 
+    z-index: -1000; 
+    overflow: hidden; 
+    clear: both;
+}
+
+#aboutme img{
+    height: 200px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+}
+/* Read more: HTML Video Background Tutorial - HTML5 and CSS only! http://kesilconsulting.com/web-designer-magazine/html-video-background-tutorial/#ixzz30thrLjlI */ 
+/* Follow us: @kesilconsulting on Twitter | kesilconsulting on Facebook */
+
+footer{
+    background-color: blue;
+    height: 50px;
+    position: relative;
+    display: block;
+    clear: both;
+
+}
