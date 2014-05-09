@@ -30,9 +30,17 @@ margin-top: 300px;
 }
 
 
-.navbar-default {
-background-color: none;
-border-color: none;
+.navbar-default{
+background-color: white;
+border-color: transparent;
+margin-bottom: 0px;
+box-shadow: 0px 10px 18px 0px;
+}
+
+@media (min-width: 768px){
+.navbar {
+border-radius: 0px;
+background-color: white;
 }
 
 
