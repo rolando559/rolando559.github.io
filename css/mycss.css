@@ -1,65 +1,45 @@
 
 body{
-     background: url(../images/sleep.jpeg);
+    background-image: url(../images/lightblue.jpeg);
 }
-form {
+
+.pure-form {
+position: relative;
+border-radius: 20%;
 margin: 0 auto;
-width: 30%;
-margin-top: 450px;
+width: 46%;
+margin-top: 300px;
 }
 
-#video_background { position: absolute; 
-bottom: 0px; 
-right: 0px;
-min-width: 100%;
-min-height: 100%;
-width: auto; height: auto; 
-z-index: -1000;
-overflow: hidden; }
+.border{
+    border-radius: 20%;
+    border-style: solid;
+    border-width: 8px;
+    height: 300px;
+    width: 100%;
+    border-color: white;
+    background-color: rgba(71, 68, 68,.4);
+}
+
+.border, h1, article, p{
+    text-align: center;
+    color: white;
+    position: relative;
+    margin: 0 auto;
 
 }
-Read more: HTML Video Background Tutorial - HTML5 and CSS only! http://kesilconsulting.com/web-designer-magazine/html-video-background-tutorial/#ixzz30g7PtciV 
-Follow us: @kesilconsulting on Twitter | kesilconsulting on Facebook
-
-Read more: HTML Video Background Tutorial - HTML5 and CSS only! http://kesilconsulting.com/web-designer-magazine/html-video-background-tutorial/#ixzz30fg4zC8D 
-Follow us: @kesilconsulting on Twitter | kesilconsulting on Facebook
-
-
 
 
 .navbar-default {
-background-color: rgba(45,62,80,.5);
-border-color: transparent;
-}
-
-@media (min-width: 768px){
-.navbar {
-border-radius: 4px;
-}
-}
-
-@media screen and (max-width: 768px){
-aside {
-    display: none;}
-
+background-color: none;
+border-color: none;
 }
 
 
-header{
-	width: 100%;
-}
 
-.navbar {
-position: relative;
-min-height: 50px;
-margin-bottom: 20px;
-border: 1px solid transparent;
+.container-lg{
+    margin-bottom: 20px;
 }
-
- .navbar-brand {
-color: white;
-}
-
 .navbar-default .navbar-nav>li>a {
 color: #76F;
 -webkit-transform: scale(1, 1); // This is the scale for the normal size of the image.
@@ -68,7 +48,7 @@ color: #76F;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-color: white;
+color: blue;
 opacity: .7;
     -webkit-transform: scale(1.05,1.07);
     -webkit-transition-timing-function: ease-out;
@@ -80,109 +60,236 @@ opacity: .7;
     z-index: 99;
 }
 .navbar-default .navbar-brand {
-color: white;
+color:  black;
+-webkit-transform: scale(1, 1); // This is the scale for the normal size of the image.
+-webkit-transition-duration: 500ms;
+-webkit-transition-timing-function: ease-out;
+}
+
+.navbar-default .navbar-brand:hover {
+color:  blue;
+opacity: .7;
+    -webkit-transform: scale(1.05,1.07);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1.05,1.07);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+    position: relative;
+    z-index: 99;
 
 }
 
 
-main{
-	height: 500px;
-	width: 100%;
-
+p, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+font-family: inherit;
+font-weight: 500;
+line-height: 1.1;
+color: black;
 }
+
 
 #mycarousel{
     width: 75%;
+    height: 500px;
     margin: 0 auto;
-    margin-top: 0px;
-    float: left;
-    clear: both;
+    margin-top: 20px;
+
+    
+    
 }
 
-#container{
-    width: 90%;
-    margin: 0 auto;
-}
+
+
 
 
 .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
 display: block;
 max-width: 100%;
-width: 100%;
-height: 600px;
+width: 75%;
+height: 480px;
+box-shadow: 1px 2px 8px 1px;
 margin: 0 auto;
-clear: both;
 }
 
 
-.subheader1, .subheader2, .subheader3{
-background-color:#258ef7;
-height: 75px;
+
+
+
+
+
+.carousel-control.left {
+margin-top: 200px;
+right: auto;
+left: 0;
+border-radius: 100%;
+width: 9%;
+height: 90px;
+}
+
+
+.carousel-control.right {
+margin-top: 200px;
+left: auto;
+right: 0;
+border-radius: 100%;
+width: 9%;
+height: 90px;
+}
+.carousel-control .icon-next, .carousel-control .glyphicon-chevron-right {
+right: 35%;
+}
+.carousel-indicators .active {
+margin: 0;
+width: 12px;
+height: 12px;
+background-color: #8F87EB;
+}
+.carousel-indicators li {
+display: inline-block;
+width: 10px;
+height: 10px;
+margin: 1px;
+text-indent: -999px;
+border: 1px solid #020A07;
+border-radius: 10px;
+cursor: pointer;
+background-color: #00F \9;
+/* background-color: rgba(0,0,0,0); */
+}
+
+.carousel-indicators {
+position: absolute;
+bottom: 80px;
+left: 50%;
+z-index: 15;
+width: 60%;
+margin-left: -30%;
+padding-left: 0;
+list-style: none;
+text-align: center;
+}
+
+.carousel-caption{
+left: 0;
+right: 0;
+background-color:rgba(216, 216, 216, .4);
+color: white;
+margin: 0 auto;
+margin-top: -40px;
+height: 97px;
 width: 75%;
 border-radius: 5px;
 
 }
 
-.subheader1:hover{
-
-    box-shadow:1px 2px 4px 4px
+.carousel-caption {
+position: absolute;
+left: 0%;
+right: 0%;
+bottom: 1px;
+z-index: 10;
+padding-top: 20px;
+padding-bottom: 20px;
+color: #fff;
+text-align: center;
+text-shadow: 0 1px 2px rgba(0,0,0,1.6);
 }
 
 
-.carousel-control.left {
-background-image: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,.1) 0),color-stop(rgba(0,0,0,.0001) 100%));
-background-image: linear-gradient(to right,rgba(0,0,0,.1) 0,rgba(0,0,0,.0001) 100%);
-background-repeat: repeat-x;
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+@media screen and (max-width: 768px){
+#mycarousel {
+height: 400px;
+width: 100%;
+/* padding-bottom: 30px; */
 }
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
 
-
-.carousel-control.right {
-left: auto;
+max-width: 100%;
+width: 100%;
+height: 350px;
+margin: 0 auto;
+}
+.carousel-caption{
+left: 0;
 right: 0;
-background-image: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,.0001) 0),color-stop(rgba(0,0,0,.1) 100%));
-background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.1) 100%);
-background-repeat: repeat-x;
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+background-color:rgba(216, 216, 216, .4);
+color: white;
+margin: 0 auto;
+margin-top: -40px;
+height: 97px;
+width: 100%;
+border-radius: 5px;
+
 }
 
-aside{
+}
+
+@media screen and (max-width: 480px){
+#mycarousel {
+height: 300px;
+/* padding-bottom: 30px; */
+}
+.carousel-indicators{
+    display: none;
+}
+
+main{
+    height: 450px;
+}
+}
+
+
+@media screen and (max-width: 768px){
+.border{
+    border-style: solid;
+    border-width: 8px;
+    height: 425px;
+    width: 100%;
+    border-color: white;
+    background-color: rgba(71, 68, 68,.4);
+}
+
+.border, h1, article, p{
+    text-align: center;
+    color: white;
     position: relative;
-    float: right;
-    width: 20%;
-    display: inline-block;
-    height: 600px;
-    background-color: rgba(120,120,120,.6);
+    margin: 0 auto;
+
+}
+#video_background { position: absolute; 
+     min-height: 100%;
+     min-width: 100%;  
+    z-index: -1000; 
+    overflow: hidden; 
+
+}
+
+
+
 }
 
 #video_background { position: absolute; 
-    bottom: 0px; 
-    right: 0px;
      min-width: 100%; 
-     min-height: 100%; 
-    width: 100%; 
-    height: 100%; 
+     min-height: 100%;  
     z-index: -1000; 
     overflow: hidden; 
-    clear: both;
+
 }
 
-#aboutme img{
-    height: 200px;
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    position: relative;
-}
+
 /* Read more: HTML Video Background Tutorial - HTML5 and CSS only! http://kesilconsulting.com/web-designer-magazine/html-video-background-tutorial/#ixzz30thrLjlI */ 
 /* Follow us: @kesilconsulting on Twitter | kesilconsulting on Facebook */
 
-footer{
-    background-color: blue;
-    height: 50px;
-    position: relative;
-    display: block;
-    clear: both;
+footer {
+background-color: rgb(232, 232, 243);
+height: 50px;
+width: 100%;
+display: block;
+margin-top: 117px;
+}
 
+
+h4{
+    float: right;
 }

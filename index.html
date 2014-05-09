@@ -2,22 +2,16 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>RolandoCabrera</title>'
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<title>Document</title>
+      <meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" type="text/css" href="css/mycss.css">
-	
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
+    
 
-	
-	<link href='http://fonts.googleapis.com/css?family=Oxygen:700' rel='stylesheet' type='text/css'>
 </head>
-
-
 <body>
- <div class="container">
- <div id="fb-root"></div>
+<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -25,8 +19,9 @@
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+<div id="container-lg">
 <header>
-<nav class="navbar navbar-default" role="navigation">
+	<nav class="navbar navbar-default" role="navigation">
  
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -36,19 +31,31 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Rolando Cabrera</a>
-    </div>
+      
+      
+
+      <a class="navbar-brand" data-toggle="dropdown" href="#">Rolando Cabrera</a>
+       <span class="caret"></span> 
+<ul class="dropdown-menu">
+    <div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+
+<iframe src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FFacebookDevelopers&amp;width&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:290px;" allowTransparency="true"></iframe>
+
+  </ul>
+
+        </div>
+
+
+        
+
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">Portfolio</a></li>
-        <li>    <a href="#">Contact Me</a>     </li>
-        <li><a href="#">My GitHub</a></li>
-        <li><a href="#">GeekWise</a></li>
-        <div class="btn-group">
-  
-</div>
+        <li><a href="pages/Contact.html">Contact Me</a></li>
+        <li><a href="http://www.github.com/rolando559">My GitHub</a></li>
+        <li><a href="http://www.geekwiseacademy.com">GeekWise</a></li>
+        
        
  
       </ul>
@@ -59,86 +66,37 @@
 </nav>
 
 </div>
-	
 </header>
-</div>
-<div id="container">
-<main>
-                  <div id="mycarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-                      <ol class="carousel-indicators">
-    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#mycarousel" data-slide-to="1"></li>
-    <li data-target="#mycarousel" data-slide-to="2"></li>
-                      </ol>
+<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+ <source src="videos/background.webm" type="video/webm">  </video>
+ <form class="pure-form">
+	<div class="border">
+    <fieldset>
+        <h1>Welcome</h1>
+        <br>
+        <br>
+        <article><p><b>I dedicate this site to my awesome family who gave me time to play on this computer...</b></p>
+					<p><b>Please sign-in to my website. I provided a little slideshow of my work from Bootcamp 2.</b></p>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="images/responsivedesigns.png">
-      <div class="carousel-caption">
-        <div class="subheader1"
-        <h3>USPS Website</h3>
-    <p>Leather Face did this</p>
+        </article>
+        <br>
+        
+
+        <input type="email" placeholder="Email">
+
+        <label for="remember">
+            <input id="remember" type="checkbox"> Remember me
+        </label>
+
+       <a class="pure-button pure-button-primary" href="pages/carousel.html">Guest Sign-In</a>
+       
+    </fieldset>
     </div>
-      </div>
-    </div>
-    <div class="item">
-     <img src="images/responsivedesigns.png">
-      <div class="carousel-caption">
-       <div class="subheader2"
-        <h3>Responsive Design</h3>
-    <p>Leather Face did this</p>
-    </div>
-      </div>
-    </div>
-    <div class="item">     
-    <img src="images/maskingintro.jpg">
-      <div class="carousel-caption">
-        <div class="subheader3">
-        <h3>PSD Slicing</h3>
-    <p>Leather Face did this</p>
-      </div>
-      </div>
-    </div>
-  </div>
-  
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#mycarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#mycarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>
-<aside>
-
-  <img class="aboutme" src="images/mypoto.png">
-  <h4>About me</h4>
-  <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, repellat quaerat error odit totam accusamus ad a minus tenetur! Voluptatum, placeat, minima mollitia quasi tempora sequi eum eius sed numquam.</article>
+</form>
 
 
-
-Read more: HTML Video Background Tutorial - HTML5 and CSS only! http://kesilconsulting.com/web-designer-magazine/html-video-background-tutorial/#ixzz30tgiLzMN 
-Follow us: @kesilconsulting on Twitter | kesilconsulting on Facebook
-
-
-
-</aside>
-
-
-
-
-
-
-</main>
-</div>	
-
-<footer>
-	design provided by Rolando
-</footer>
-<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	</div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </body>
 </html>
